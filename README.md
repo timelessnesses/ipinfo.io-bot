@@ -1,3 +1,4 @@
 # ipinfo.io api bot
 ## Setups
-I u
+I use poetry.  
+still in dev tho

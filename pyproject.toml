@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ipinfo-bot"
+version = "0.1.0"
+description = "a discord.py ipinfo.io API bot"
+authors = ["timelessnesses <mooping3roblox@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+slash-util = "^1.3.1"
+"discord.py" = {git = "https://github.com/Rapptz/discord.py", extras = ["speed"]}
+uvloop = {version = "^0.16.0", platform = "linux"}
+python-dotenv = "^0.19.2"
+aiohttp = {version = "<3.8.0", extras = ["speedups"]}
+ez-aiohttp = "^0.1.0"
+aiofiles = "^0.8.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
